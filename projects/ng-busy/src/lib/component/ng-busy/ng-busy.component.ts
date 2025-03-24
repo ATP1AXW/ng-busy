@@ -23,7 +23,8 @@ const timing = '.3s ease';
         animate(timing, inactiveStyle)
       ])
     ])
-  ]
+  ],
+  standalone: false
 })
 export class NgBusyComponent implements OnDestroy {
 

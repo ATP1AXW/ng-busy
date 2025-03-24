@@ -20,7 +20,8 @@ import { isPromise } from './util/isPromise';
 @Directive({
   selector: '[ngBusy]',
   providers: [BusyTrackerService, InstanceConfigHolderService],
-  exportAs: 'ngBusy'
+  exportAs: 'ngBusy',
+  standalone: false
 })
 export class NgBusyDirective implements DoCheck, OnDestroy {
   @Input('ngBusy')

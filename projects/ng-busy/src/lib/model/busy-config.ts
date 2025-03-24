@@ -42,6 +42,7 @@ export class BusyConfig implements IBusyConfig {
           </div>
       </div>
   `,
+  standalone: false
 })
 export class DefaultBusyComponent {
 

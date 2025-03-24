@@ -11,6 +11,7 @@ import { InstanceConfigHolderService } from '../../../../../../projects/ng-busy/
           </div>
       </div>
   `,
+  standalone: false
 })
 export class CustomBusyComponentComponent implements OnInit, OnDestroy {
 

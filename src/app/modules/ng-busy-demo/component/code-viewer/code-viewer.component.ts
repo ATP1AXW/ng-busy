@@ -6,7 +6,8 @@ import {TemplateService} from '../../service/template.service';
   selector: 'app-code-viewer',
   templateUrl: './code-viewer.component.html',
   styleUrls: ['./code-viewer.component.css'],
-  providers: [{provide: 'Window', useValue: window}]
+  providers: [{ provide: 'Window', useValue: window }],
+  standalone: false
 })
 export class CodeViewerComponent implements OnChanges {
 
