@@ -1,5 +1,5 @@
 {
-  "name": "ng-busy",
+  "name": "ng-busy-19",
   "version": "19.0.0",
   "description": "Show busy/loading indicators on any promise or subscription",
   "author": "victos",
@@ -22,7 +22,8 @@
     "ng-busy",
     "waiting",
     "angular5",
-    "angular6"
+    "angular6",
+    "angular19"
   ],
   "engines": {
     "node": ">= 18.0.0",
