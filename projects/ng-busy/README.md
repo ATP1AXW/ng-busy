@@ -25,7 +25,7 @@
 
 Rewritten from [angular2-busy](https://github.com/devyumao/angular2-busy), and add some new features in terms of Angular 2.
 
-### Built with Angular 6.0.0
+### Built with Angular 19.0.0
 
 ## Demo
 
@@ -34,7 +34,7 @@ Rewritten from [angular2-busy](https://github.com/devyumao/angular2-busy), and a
 ## Installation
 
 ```shell
-npm install --save ng-busy
+npm install --save ng-busy-19
 ```
 
 ## Link CSS
@@ -43,7 +43,7 @@ In angular.json:
 ```json
   "styles": [
         ...
-        "node_modules/ng-busy/src/style/busy.css",
+        "node_modules/ng-busy-19/src/style/busy.css",
         ...
       ],
 ```
@@ -55,7 +55,7 @@ Import the `NgBusyModule` in your root application module:
 ```ts
 import {NgModule} from '@angular/core';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
-import {NgBusyModule} from 'ng-busy';
+import {NgBusyModule} from 'ng-busy-19';
 
 @NgModule({
 	imports: [
@@ -164,7 +164,7 @@ In the root application module, you can do this:
 
 ```ts
 import {NgModule} from '@angular/core';
-import {NgBusyModule, BusyConfig} from 'ng-busy';
+import {NgBusyModule, BusyConfig} from 'ng-busy-19';
 import {CustomBusyComponent} from '...'
 
 @NgModule({
@@ -231,6 +231,8 @@ export class CustomBusyComponent {
 ## Credits
 
 Rewritten from [devyumao](https://github.com/devyumao)'s [angular2-busy](https://github.com/devyumao/angular2-busy).
+
+Forked from [victos](https://github.com/victos)'s [ng-busy](https://github.com/victos/angular-opensource).
 
 ## LICENSE
 

@@ -1,12 +1,18 @@
 {
   "name": "ng-busy-19",
-  "version": "19.0.0",
+  "version": "19.0.1",
   "description": "Show busy/loading indicators on any promise or subscription",
   "author": "victos",
+  "contributors" : [
+    {
+      "name" : "atp1axw",
+      "url" : "https://github.com/ATP1AXW"
+    }
+  ],
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/victos/angular-opensource.git"
+    "url": "git+https://github.com/ATP1AXW/ng-busy.git"
   },
   "homepage": "https://github.com/victos/angular-opensource/tree/master/projects/ng-busy",
   "bugs": {
@@ -23,11 +29,12 @@
     "waiting",
     "angular5",
     "angular6",
-    "angular19"
+    "angular19",
+    "ng-busy-19"
   ],
   "engines": {
-    "node": ">= 18.0.0",
-    "npm": ">= 5.6.0"
+    "node": ">= 18.19.1",
+    "npm": ">= 10.2.4"
   },
   "peerDependencies": {
     "@angular/common": "^19.0.0",
